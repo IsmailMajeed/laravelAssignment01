@@ -1,0 +1,440 @@
+#item1:hover {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item1.1.jpg");
+    transform: scale(1.01);
+}
+
+#item1 {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item1.jpg");
+    transition: 1s all ease;
+}
+
+#item2:hover {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item2.1.jpg");
+    transform: scale(1.01);
+}
+
+#item2 {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item2.jpg");
+    transition: 1s all ease;
+}
+
+#item3:hover {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item3.1.jpg");
+    transform: scale(1.01);
+}
+
+#item3 {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item3.jpg");
+    transition: 1s all ease;
+}
+
+#item4:hover {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item4.1.jpg");
+    transform: scale(1.01);
+}
+
+#item4 {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item4.jpg");
+    transition: 1s all ease;
+}
+
+#item5:hover {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item5.1.jpg");
+    transform: scale(1.01);
+}
+
+#item5 {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item5.jpg");
+    transition: 1s all ease;
+}
+
+#item6:hover {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item6.1.jpg");
+    transform: scale(1.01);
+}
+
+#item6 {
+    width: 100%;
+    height: 83%;
+    background-repeat: no-repeat;
+    background-image: url("item6.jpg");
+    transition: 1s all ease;
+}
+
+.itemsDetails a {
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.itemsDetails img:hover {
+    transform: scale(1.01);
+    transition: 1s all ease;
+}
+
+.PriceRange {
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+#Price {
+    width: 115px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding: 10px;
+}
+
+.itemsDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* border: 1px solid yellow; */
+}
+
+.itemsSales {
+    position: relative;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid black; */
+    display: grid;
+    row-gap: 10px;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.DropDownContainer {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.Custom1 {
+    background-color: white;
+    border: solid white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    color: black;
+    width: 80%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+}
+
+.Custom1:hover {
+    background-color: white;
+    color: black;
+    border: solid white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.MyCustom:hover {
+    background-color: white;
+    color: black;
+    border: solid white;
+    border-bottom: 1px solid black;
+}
+
+.MyCustom {
+    background-color: white;
+    border: solid white;
+    border-bottom: 1px solid black;
+    /* border-top: 1px solid black; */
+    color: black;
+    width: 80%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    /* margin-top: 30px; */
+}
+
+.itemsContainer {
+    /* border: 1px solid black; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 1000px;
+    display: flex;
+
+}
+
+.navBarr {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    font-size: small;
+    color: gray;
+}
+
+.navBarr a {
+    text-decoration: none;
+}
+
+.Sales {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: yellow; */
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+}
+
+#hrHeader {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    opacity: 0.3;
+    position: relative;
+    top: -10px;
+}
+
+.MainContainer {
+    /* width: 800px; */
+    /* column-gap: 10px;
+    row-gap: 10px;
+    background-color: aqua; */
+    /* border: 1px solid black; */
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 80px 10px 70px 0px 1fr 200px 40px;
+}
+
+#btn:hover {
+    border-color: black;
+}
+
+#shop {
+    font-family: system-ui;
+    font-size: small;
+}
+
+#TITLE {
+    font-family: system-ui;
+    font-weight: 700;
+    color: gray;
+}
+
+#Tips #text1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+#Tips #text2 {
+    font-weight: 500;
+}
+
+#Tips {
+    position: relative;
+    top: -130px;
+    left: 45%;
+    font-family: system-ui;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+#help #helpBtn:hover {
+    background-color: cornflowerblue;
+}
+
+#help #helpBtn {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 8%;
+    font-weight: 800;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    /* top: 240px; */
+}
+
+#help {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.social i:hover {
+    font-size: xx-large;
+}
+
+.social {
+    color: black;
+    font-size: x-large;
+}
+
+.social i {
+    margin-left: 15px;
+}
+
+.refLinks a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.refLinks a {
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.refLinks {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: gray;
+    background-color: rgb(248, 244, 238);
+    font-family: system-ui;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    /* position: relative; */
+    background-color: rgb(248, 244, 238);
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* color: gray; */
+}
+
+.item i:hover {
+    color: black;
+    font-size: large;
+}
+
+.item i {
+    margin-left: 20px;
+    color: rgb(63, 62, 62);
+}
+
+.item z {
+    color: rgb(63, 62, 62);
+    font-size: smaller;
+    margin-right: 30px;
+}
+
+.itemMenu {
+    background-color: rgb(248, 244, 238);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 100px 0px;
+    grid-template-rows: 1fr;
+}
+
+.itemMenu #menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemMenu #menu div {
+    width: 30px;
+    height: 3px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.itemMenu #MenuText {
+    display: flex;
+    font-family: system-ui;
+    align-items: center;
+}
+
+.itemBaroque {
+    background-color: rgb(248, 244, 238);
+    display: flex;
+    align-items: center;
+    color: rgb(31, 78, 31);
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.itemHeader {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.itemFooter {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: small;
+    /* font-weight: bold; */
+    font-family: system-ui;
+}
